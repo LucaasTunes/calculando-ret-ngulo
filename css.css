@@ -1,0 +1,32 @@
+body {
+    background-image: url('desktop-wallpaper-3d-illusions-3d-optical-illusion.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black; /* Defina a cor de fundo para preto */
+}
+
+#rectangleForm {
+    background-color: aliceblue;
+    display: inline-block; /* Faz o formulário ficar na mesma linha */
+    padding: 10px; /* Adiciona um espaçamento interno ao formulário */
+}
+
+h1 {
+    color: rgb(2, 14, 116); /* Altera a cor do título para branco */
+background-color: aqua;
+}
+
+#result {
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-weight: bold;
+    display: inline-block; /* Faz o resultado ficar na mesma linha */
+}
+
+/* Estiliza os labels para exibí-los corretamente */
+#rectangleForm label {
+    display: block; /* Define os labels como elementos de bloco */
+    margin-bottom: 5px; /* Adiciona um espaçamento inferior entre os labels e os campos de entrada */
+}
+
